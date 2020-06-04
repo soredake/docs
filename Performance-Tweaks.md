@@ -7,6 +7,13 @@ DX11 translated into Vulkan, see [How to: DXVK](https://github.com/lutris/lutris
 ## Enable Game Mode
 Game Mode set your CPU governor to max performance while you are playing, and can improve FPS in some cases. It's automatically enabled for all your games when you have game mode installed on your system. The only thing to have in consideration is that you must install gamemode, and lib32-gamemode. If you can't install this libraries, make sure your operating system has multiarch (ubuntu) or multilib (arch linux) enabled. You need Lutris 0.4.23 or upper. More information available [here](https://github.com/FeralInteractive/gamemode).
 
+TODO:
+radv aco
+PROTON_NO_WRITE_WATCH=1
+dxvk async
+d3d11.maxTessFactor = 8
+d3d11.relaxedBarriers = True
+
 ## Frametimes optimization
 If your game uses DXVK, you can tweak it to make it run smoother. You only need to set DXVK_HUD=frametimes. The next time you run your game you will see a frametimes graph. Now you can change the settings of your game until:
 
